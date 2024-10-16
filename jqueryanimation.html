@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquary1.js"></script> -->
+    
+
+ </head>
+<body> 
+    <div style="background-color: red;width: 100px;height: 100px;position: relatives;"></div>
+    <br>
+    <button id="animate">click</button>
+    <button id="stop">click</button>
+    <script>
+
+// $(document).ready(function(){
+//     $("#animate").click(function(){
+//         $("div").animate({left: '850px'}, 4000);
+//     });
+
+//     $("#stop").click(function(){
+//         $("div").stop();
+//     });
+// }); 
+
+
+
+//  $(document).ready(function(){
+//     $("animation").click(function(){
+//     var div = $("div");
+//      div.animate({ height: ' 300px' , capacity: '0.4'} , "slow");
+//      div.animate({ width: ' 300px' , capacity: '0.8'} , "slow");
+//      div.animate({ height: ' 100px' , capacity: '0.4'} , "slow");
+//      div.animate({ width: ' 100px' , capacity: '0.8'} , "slow");
+//      });
+//      });
+
+
+
+
+
+     $("#animate").click(function(){
+        var div=$("div");
+        $("div").css("color","red").animate({left:'250px'},4000,function(){
+            $(this).css("background-color","blue");
+
+        }).animate({top:'300px',width:'300px',height:'200px'},4000,function(){
+            $(this).css("background-color","blue");
+        }).animate({left:'0px',width:'100px',height:'100px'},4000,function(){
+            $(this).css("background-color","yellow");
+        }).animate({top:'0px',width:'100px',height:'100px'},4000,function(){
+            $(this).css("background-color","red");
+        });
+    });
+
+
+                           
+                            
+                           
+    </script>
+    
+</body>
+</html> 

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Page</title>
+</head>
+<body>
+    <h1> this is the first html page</h1>
+    <img id="m1"src="download.jpeg"><br>
+
+    <button onclick="first()">yes</button>
+    <button onclick="second()">no</button><br>
+    <p ID="p1">you have to change this paragraph</p>
+
+
+    <script>
+        function first(){
+            window.location.href ='flower2.html';
+        }
+        function second(){
+            document.querySelector('image').src ='flower2.jpeg'
+            alert('image changed');
+            document.getElementById('p1').innerHTML="CHANGED PARAGRAPH"
+        }
+    </script>
+    
+</body>
+</html>

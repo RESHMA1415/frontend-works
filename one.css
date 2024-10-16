@@ -1,0 +1,102 @@
+h3{
+    color:brown
+}
+h1{
+    background-color:blue;
+    border:2px red solid;
+    margin-top:100px;
+    margin-bottom:50px;
+    margin-right:50px;
+    margin:100px 200px 300px 400px;
+    margin:100px 200px;
+    padding-top:20px;
+    padding-bottom:30px;
+    padding-right:50px;
+    padding:10px 20px 30 px;
+    padding:20px 30px 40px;
+    padding:40px 80px;
+    padding:40px;
+    border-width:5px;
+    border-color:blue;
+    border:2px solid red;
+    border:2px dotted red;
+    border:2px dashed red;
+    border:2px double red;
+    border:3px yellow groove;
+    border:3px yellow groove;
+    border:3px yellow groove;
+    border:3px yellow ridge;
+    border:3px yellow inset;
+    border:3px yellow outset;
+    border:3px yellow hidden;
+    color:chocolate;
+    background-color:burlywood;
+    text-align:center;
+    /* width:300px; */
+    /* border:15px violet; */
+    /* padding:50 px; */
+    /* margin:20px */
+
+}
+h3{
+    text-indent:50px;
+    /* letter-spacing:20px;
+    word-spacing:20px;
+    word-spacing:20px; */
+    text-transform:lowercase;
+    text-transform:uppercase;
+    text-transform:capitalize;
+    text-shadow:2px 2px;
+    text-shadow:2px 2px red;
+    text-shadow:2px 2px 1px red;
+    text-align:center;
+    text-align:justify;
+}
+h2{
+    text-align:center;
+    text-align:right;
+    text-align:left;
+    background-color:rgb(0,255,0);
+    background-color:rgb(255,0,0);
+    background-color:rgb(0,0,0);
+    background-color:rgb(255,255,255);
+    opacity: 1;
+
+}
+body{
+        background-color:coral;
+        background-image:url();
+        /* background-image:url('download.jpeg');  */
+        background-repeat:no-repeats;
+        background-repeat:repeat-x;
+        background-repeat:repeat-y;
+        background-repeat:repeat;
+        background-position:right;
+        background-position:left;
+        background-position:center;
+        background-position:top;
+        background-position:bottom;
+        background-position:right top;
+        background-position:top;
+        background-position:left top;
+        background-attachment:fixed;
+}
+h6{
+    border: 2px red solid;
+    padding:25px;
+    margin:5px;
+    outline:5px blue dotted;
+
+}
+div>p{
+    background-color:blue;
+}
+div>p{
+    background-color:crimson;
+}
+div+p{
+    background-color:darkmagenta;
+}
+div~p{
+    background-color:darkturquoise;
+}

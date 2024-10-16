@@ -1,0 +1,35 @@
+body{
+    background-color: #000;
+    margin:0;
+    overflow:hidden;
+     background-repeat:no-repeat;
+}
+
+
+
+/* body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(15deg, #e66465, #9198e5);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+} */
